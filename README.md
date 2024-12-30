@@ -8,7 +8,7 @@ Hello! This is my take on the classic pong game using Python and the Turtle libr
 
 ## Quick Start
 
-1. Clone this repository: 
+1. Clone this repository: git clone https://github.com/OvidioCalvet/python_pong_project.git
 2. Run the main file
 
 ## Controls
