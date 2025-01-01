@@ -14,7 +14,7 @@ Hello! This is my take on the classic pong game using Python and the Turtle libr
 ## Controls
 
 1. **Player 1**: W & S keys
-2. **Player 1**: UP & DOWN arrow keys
+2. **Player 1**: I & K keys
 
 ---
 
