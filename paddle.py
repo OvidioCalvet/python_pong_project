@@ -7,7 +7,6 @@ class Paddle(Turtle):
     def __init__(self, position):
         
         super().__init__('square')
-
         
         self.speed(0)
 
@@ -22,3 +21,5 @@ class Paddle(Turtle):
     def up(self): self.goto(self.xcor(), self.ycor() + MOVEMENT_INCREMENT)
 
     def down(self): self.goto(self.xcor(), self.ycor() - MOVEMENT_INCREMENT)
+
+    def stop(self): pass
