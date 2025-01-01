@@ -2,30 +2,23 @@ from turtle import Turtle
 
 MOVEMENT_INCREMENT = 20
 
-class Paddle(Turtle, ):
+class Paddle(Turtle):
 
     def __init__(self, position):
         
-        super().__init__()
+        super().__init__('square')
 
-        self.hideturtle()
-        self.position = position
-        self.paddle = self.create_paddle()
         
+        self.speed(0)
 
-    def create_paddle(self):
+        #Create Paddle
+        self.shapesize(stretch_len=.5, stretch_wid=4)
+        self.color('#ADC178')
+        self.penup()
 
-        new_paddle = Turtle('square')
-        new_paddle.shapesize(stretch_len=.5, stretch_wid=4)
-        new_paddle.color('#ADC178')
-        new_paddle.penup()
-        new_paddle.speed(0)
+        if position == 'right': self.goto(425,0)
+        elif position == 'left': self.goto(-425, 0)
 
-        if self.position == 'right': new_paddle.goto(425,0)
-        else: new_paddle.goto(-425, 0)
+    def up(self): self.goto(self.xcor(), self.ycor() + MOVEMENT_INCREMENT)
 
-        return new_paddle
-
-    def up(self): self.paddle.goto(self.paddle.xcor(), self.paddle.ycor() + MOVEMENT_INCREMENT)
-
-    def down(self): self.paddle.goto(self.paddle.xcor(), self.paddle.ycor() - MOVEMENT_INCREMENT)
+    def down(self): self.goto(self.xcor(), self.ycor() - MOVEMENT_INCREMENT)
