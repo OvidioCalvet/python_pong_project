@@ -7,8 +7,8 @@ class Ball(Turtle):
         super().__init__('circle')
         
         # velocity of x and y values
-        self.dx = 6
-        self.dy = 6
+        self.dx = 10
+        self.dy = 10
 
         self.color('white')
         self.shapesize(stretch_wid=.75, stretch_len=.75)
