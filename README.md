@@ -1,6 +1,6 @@
 # My Pong Game
 
-Hello! This is my take on the classic pong game using Python and the Turtle library. This is a really fun classic game that I've designed to help strengthen my skills as a rookie developer
+Hello! This is my take on the classic pong game using Python and the Turtle library. Pong is a video game classic game that I've decided to decided to recreate to help strengthen my skills as a rookie developer
 
 
 
