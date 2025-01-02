@@ -1,6 +1,6 @@
 # My Pong Game
 
-Welcome! This was a really fun project I programmed using Python and the Turtle library. Pong is a video game classic that I've decided to decided to recreate strengthening my skills as a rookie developer
+Welcome! This was a really fun project I programmed using Python and the Turtle library. Pong is a video game classic that I've decided to recreate strengthening my skills as a rookie developer
 
 
 
