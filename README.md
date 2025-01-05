@@ -14,7 +14,7 @@ Welcome! This was a really fun project I programmed using Python and the Turtle 
 ## Controls
 
 1. **Player 1**: W & S keys
-2. **Player 1**: I & K keys
+2. **Player 2**: I & K keys
 
 ---
 
